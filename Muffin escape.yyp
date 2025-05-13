@@ -41,10 +41,12 @@
   "resources":[
     {"id":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},},
     {"id":{"name":"O_Ground","path":"objects/O_Ground/O_Ground.yy",},},
+    {"id":{"name":"O_PipiteDiChoucoula","path":"objects/O_PipiteDiChoucoula/O_PipiteDiChoucoula.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"R_Test","path":"rooms/R_Test/R_Test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"S_Ground","path":"sprites/S_Ground/S_Ground.yy",},},
+    {"id":{"name":"S_pipite","path":"sprites/S_pipite/S_pipite.yy",},},
     {"id":{"name":"S_Play_Button","path":"sprites/S_Play_Button/S_Play_Button.yy",},},
     {"id":{"name":"S_Player_Idle","path":"sprites/S_Player_Idle/S_Player_Idle.yy",},},
     {"id":{"name":"S_Settings_Button","path":"sprites/S_Settings_Button/S_Settings_Button.yy",},},

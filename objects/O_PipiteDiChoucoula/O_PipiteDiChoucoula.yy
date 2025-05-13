@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_Ground",
-  "eventList":[],
+  "%Name":"O_PipiteDiChoucoula",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Ground",
+  "name":"O_PipiteDiChoucoula",
   "overriddenProperties":[],
   "parent":{
     "name":"InGame",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Ground",
-    "path":"sprites/S_Ground/S_Ground.yy",
+    "name":"S_pipite",
+    "path":"sprites/S_pipite/S_pipite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
