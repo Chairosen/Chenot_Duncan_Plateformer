@@ -1,10 +1,10 @@
 //Collisions
-var isGrounded = collision_line(x-widthSize+5,y+heightSize,x+widthSize-5,y+heightSize,O_Ground,0,0);
-var toCeilling = collision_line(x-widthSize,y-heightSize-5,x+widthSize,y-heightSize-5,O_Ground,0,0);
-var inGround = collision_rectangle(x-widthSize+5,y,x+widthSize-5,y+heightSize,O_Ground,0,0);
+var isGrounded = collision_line(x-widthSize+5,y+heightSize,x+widthSize-5,y+heightSize,[O_Ground,O_Bowl],0,0);
+var toCeilling = collision_line(x-widthSize,y-heightSize,x+widthSize,y-heightSize,[O_Ground,O_Bowl],0,0);
+var inGround = collision_rectangle(x-widthSize+5,y,x+widthSize-5,y+heightSize,[O_Ground,O_Bowl],0,0);
 var inCeilling = collision_rectangle(x-widthSize+5,y-heightSize,x+widthSize-5,y,O_Ground,0,0);
-var inLeft = collision_rectangle(x-widthSize,y-heightSize,x,y+heightSize,O_Ground,0,0);
-var inRight = collision_rectangle(x,y-heightSize,x+widthSize,y+heightSize,O_Ground,0,0);
+var inLeft = collision_rectangle(x-widthSize,y-heightSize,x,y+heightSize,[O_Ground,O_Bowl],0,0);
+var inRight = collision_rectangle(x,y-heightSize,x+widthSize,y+heightSize,[O_Ground,O_Bowl],0,0);
 
 //Inputs
 var qDown = keyboard_check(ord("Q"));
@@ -16,6 +16,7 @@ if (!qDown)
 {
 	if (!dDown)
 	{
+		dirX = 0;
 		hspeed = 0
 	}
 }

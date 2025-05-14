@@ -6,8 +6,8 @@
   "name":"O_Ground",
   "overriddenProperties":[],
   "parent":{
-    "name":"InGame",
-    "path":"folders/Objects/InGame.yy",
+    "name":"Environment",
+    "path":"folders/Objects/InGame/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,

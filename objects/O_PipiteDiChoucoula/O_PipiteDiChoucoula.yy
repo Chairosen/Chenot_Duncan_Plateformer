@@ -9,8 +9,8 @@
   "name":"O_PipiteDiChoucoula",
   "overriddenProperties":[],
   "parent":{
-    "name":"InGame",
-    "path":"folders/Objects/InGame.yy",
+    "name":"Player",
+    "path":"folders/Objects/InGame/Characters/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
