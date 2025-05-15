@@ -1,5 +1,11 @@
 var mouseOver = collision_point(mouse_x,mouse_y,self,0,0);
 
+if (mouseOver)
+{
+	
+}
+
+/*
 //Si la souris est au dessus du bouton, on zoom sur ce bouton
 if (mouseOver)
 {

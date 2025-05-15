@@ -11,7 +11,7 @@ var qDown = keyboard_check(ord("Q"));
 var dDown = keyboard_check(ord("D"));
 var spacePressed = keyboard_check_pressed(vk_space);
 
-//(Red Hot Chili Peppers - can't) stop
+//stop movement
 if (!qDown)
 {
 	if (!dDown)
@@ -21,7 +21,7 @@ if (!qDown)
 	}
 }
 
-//if inside the ground, extract
+//if inside collision, extract
 if (inGround)
 {
 	y -= 2;
@@ -32,27 +32,27 @@ if (inCeilling)
 }
 if (inRight)
 {
-	x -= 2;
+	x -= 6;
 }
 if (inLeft)
 {
-	x += 2;
+	x += 6;
 }
 
 //on ground
 if (isGrounded)
 {
 	nuggetJumped = false
-	if (spacePressed)
+	if (!spacePressed)
+	{
+		vspeed = 0;
+	}
+	else
 	{
 		if (!toCeilling)
 		{
 			vspeed = jumpForce;
 		}
-	}
-	else
-	{
-		vspeed = 0;
 	}
 }
 //in air
@@ -65,13 +65,14 @@ else
 	}
 	else
 	{
+		//nugget jump : double jump
 		if (spacePressed)
 		{
 			if (!nuggetJumped)
 			{
 				nuggetJumped = true;
 				instance_create_layer(x,y,"Player",O_PipiteDiChoucoula);
-				y -= 256;
+				y -= 192;
 			}
 		}
 	}

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Mouse_Tracker",
+  "%Name":"O_Sprite_Manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Mouse_Tracker",
+  "name":"O_Sprite_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Managers",
+    "path":"folders/Objects/InGame/Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,7 +25,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"idle","filters":[],"listItems":[],"multiselect":false,"name":"idle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"walkRight","filters":[],"listItems":[],"multiselect":false,"name":"walkRight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
