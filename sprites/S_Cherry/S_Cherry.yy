@@ -3,8 +3,8 @@
   "%Name":"S_Cherry",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":0,
-  "bbox_right":31,
+  "bbox_left":2,
+  "bbox_right":29,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9690a62d-f165-406b-ae98-8b36f025fff9","name":"9690a62d-f165-406b-ae98-8b36f025fff9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0611f9cd-2dc5-4c9e-bc8f-7156e6cd4e22","name":"0611f9cd-2dc5-4c9e-bc8f-7156e6cd4e22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7b83aba7-15ad-4d5d-942c-0c825d246b71","blendMode":0,"displayName":"default","isLocked":false,"name":"7b83aba7-15ad-4d5d-942c-0c825d246b71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c5152193-a830-4967-8aa6-346ce5f59511","blendMode":0,"displayName":"default","isLocked":false,"name":"c5152193-a830-4967-8aa6-346ce5f59511","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Cherry",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9690a62d-f165-406b-ae98-8b36f025fff9","path":"sprites/S_Cherry/S_Cherry.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d843ce3-d77f-4afa-ac17-b4148a9e3f4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0611f9cd-2dc5-4c9e-bc8f-7156e6cd4e22","path":"sprites/S_Cherry/S_Cherry.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a14ca447-f451-407b-9491-569704c8f8c5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
