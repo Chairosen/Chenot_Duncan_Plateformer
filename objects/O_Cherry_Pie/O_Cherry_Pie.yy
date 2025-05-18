@@ -3,7 +3,7 @@
   "%Name":"O_Cherry_Pie",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Cherry_Pie",
@@ -12,6 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"detect","path":"objects/O_Ennemy/O_Ennemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1024",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"moving","path":"objects/O_Ennemy/O_Ennemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"distance","path":"objects/O_Ennemy/O_Ennemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"128",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"idleSprite","path":"objects/O_Ennemy/O_Ennemy.yy",},"resource":{"name":"S_Enemy","path":"sprites/S_Enemy/S_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Enemy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"walkSprite","path":"objects/O_Ennemy/O_Ennemy.yy",},"resource":{"name":"S_Enemy","path":"sprites/S_Enemy/S_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Enemy",},
   ],
   "parent":{
     "name":"NPC",

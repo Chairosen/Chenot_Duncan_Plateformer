@@ -1,12 +1,12 @@
 var inGround = collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom-1,O_Ground,0,0);
-var onGround = collision_line(bbox_left,bbox_bottom,bbox_right,bbox_bottom,O_Ground,0,0);
+var onGround = collision_rectangle(bbox_left,bbox_bottom-64,bbox_right,bbox_bottom,O_Ground,0,0);
 var distancePlayer = point_distance(x,y,O_Player.x,O_Player.y);
 var distancePlayerAtk = point_distance(x,y,O_Player.x,O_Player.y);
 
 //Physics
 if (inGround)
 {
-	y += 1;
+	y -= 2;
 }
 if (onGround)
 {
@@ -21,7 +21,14 @@ else
 }
 if (moving)
 {
-	event_user(2);
+	if (alarm[0] <= 0)
+	{
+		event_user(2);
+	}
+	else
+	{
+		hspeed = 0;
+	}
 }
 
 

@@ -83,6 +83,7 @@
     {"id":{"name":"S_Checkpoint","path":"sprites/S_Checkpoint/S_Checkpoint.yy",},},
     {"id":{"name":"S_Cherry","path":"sprites/S_Cherry/S_Cherry.yy",},},
     {"id":{"name":"S_Chocolate_Nugget","path":"sprites/S_Chocolate_Nugget/S_Chocolate_Nugget.yy",},},
+    {"id":{"name":"S_Dango_Walk","path":"sprites/S_Dango_Walk/S_Dango_Walk.yy",},},
     {"id":{"name":"S_Dango","path":"sprites/S_Dango/S_Dango.yy",},},
     {"id":{"name":"S_Enemy","path":"sprites/S_Enemy/S_Enemy.yy",},},
     {"id":{"name":"S_Ground","path":"sprites/S_Ground/S_Ground.yy",},},

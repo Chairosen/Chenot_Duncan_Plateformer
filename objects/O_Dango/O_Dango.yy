@@ -4,7 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"O_Dango",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"idleSprite","path":"objects/O_Ennemy/O_Ennemy.yy",},"resource":{"name":"S_Dango","path":"sprites/S_Dango/S_Dango.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Dango",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"walkSprite","path":"objects/O_Ennemy/O_Ennemy.yy",},"resource":{"name":"S_Dango_Walk","path":"sprites/S_Dango_Walk/S_Dango_Walk.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Dango_Walk",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"moving","path":"objects/O_Ennemy/O_Ennemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemy","path":"objects/O_Ennemy/O_Ennemy.yy",},"propertyId":{"name":"distance","path":"objects/O_Ennemy/O_Ennemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256",},
+  ],
   "parent":{
     "name":"NPC",
     "path":"folders/Objects/InGame/Characters/NPC.yy",
