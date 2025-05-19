@@ -17,6 +17,7 @@ if (passedUnder)
 		if (collPlayer)
 		{
 			Sc_Respawn();
+			room_goto(R_Bowl_End);
 		}
 	}
 	}
