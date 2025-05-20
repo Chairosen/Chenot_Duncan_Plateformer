@@ -1,4 +1,4 @@
-switch (O_Life_Manager.playerHP)
+switch (O_Life_Manager.dirtyness)
 {
 	case 5:
 		idle = S_Player_Idle;
