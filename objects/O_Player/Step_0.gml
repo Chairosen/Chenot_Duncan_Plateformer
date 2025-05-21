@@ -72,7 +72,7 @@ else
 			{
 				nuggetJumped = true;
 				instance_create_layer(x,y,"Player",O_PipiteDiChoucoula);
-				y -= 192;
+				vspeed -= 20;
 			}
 		}
 	}

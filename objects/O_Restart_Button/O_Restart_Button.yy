@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"O_Heal",
+  "%Name":"O_Restart_Button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Heal",
+  "name":"O_Restart_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/InGame/Characters/Player.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Button",
+    "path":"objects/O_Button/O_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Chocolate_Nugget",
-    "path":"sprites/S_Chocolate_Nugget/S_Chocolate_Nugget.yy",
+    "name":"S_Play_Button",
+    "path":"sprites/S_Play_Button/S_Play_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

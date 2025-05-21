@@ -1,2 +1,2 @@
-vspeed = 5
-hspeed = 2*(-O_Player.dirX)
+vspeed = 10;
+hspeed = -O_Player.hspeed;

@@ -7,8 +7,9 @@ if (coll)
 }
 else if (collPlayer)
 {
-	Sc_TakeDamage(1);
-	if (O_Life_Manager.playerHP == 0)
+	//Sc_TakeDamage(1);
+	O_Life_Manager.dirtyness += 1;
+	if (O_Life_Manager.dirtyness > 5)
 	{
 		O_Life_Manager.alarm[1] = 1;
 	}

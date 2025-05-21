@@ -1,24 +1,24 @@
 switch (O_Life_Manager.dirtyness)
 {
-	case 5:
-		idle = S_Player_Idle;
-		walkRight = S_Player_Walk_Right;
-		break;
 	case 4:
-		idle = S_Player_Idle_1;
-		walkRight = S_Player_Walk_Right_1;
+		idle = S_Player_Idle_4;
+		walkRight = S_Player_Walk_Right_4;
 		break;
 	case 3:
-		idle = S_Player_Idle_2;
-		walkRight = S_Player_Walk_Right_2;
-		break;
-	case 2:
 		idle = S_Player_Idle_3;
 		walkRight = S_Player_Walk_Right_3;
 		break;
+	case 2:
+		idle = S_Player_Idle_2;
+		walkRight = S_Player_Walk_Right_2;
+		break;
+	case 1:
+		idle = S_Player_Idle_1;
+		walkRight = S_Player_Walk_Right_1;
+		break;
 	default :
-		idle = S_Player_Idle_4;
-		walkRight = S_Player_Walk_Right_4;
+		idle = S_Player_Idle;
+		walkRight = S_Player_Walk_Right;
 		break;
 		
 }

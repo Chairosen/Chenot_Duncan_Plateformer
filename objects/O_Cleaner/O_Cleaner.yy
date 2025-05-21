@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Heal",
+  "%Name":"O_Cleaner",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Heal",
+  "name":"O_Cleaner",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Chocolate_Nugget",
-    "path":"sprites/S_Chocolate_Nugget/S_Chocolate_Nugget.yy",
+    "name":"S_Towel",
+    "path":"sprites/S_Towel/S_Towel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
