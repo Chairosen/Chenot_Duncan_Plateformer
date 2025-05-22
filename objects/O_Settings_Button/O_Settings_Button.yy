@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"O_Ground",
-  "eventList":[],
+  "%Name":"O_Settings_Button",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Ground",
+  "name":"O_Settings_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/InGame/Environment.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Button",
+    "path":"objects/O_Button/O_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Ground",
-    "path":"sprites/S_Ground/S_Ground.yy",
+    "name":"S_Settings_Button",
+    "path":"sprites/S_Settings_Button/S_Settings_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
