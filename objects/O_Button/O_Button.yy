@@ -10,8 +10,8 @@
   "name":"O_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Menu/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

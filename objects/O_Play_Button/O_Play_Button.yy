@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"viewportVisible","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Menu/Buttons.yy",
   },
   "parentObjectId":{
     "name":"O_Button",

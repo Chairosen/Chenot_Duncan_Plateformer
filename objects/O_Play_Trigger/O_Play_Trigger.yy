@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Switch",
+  "%Name":"O_Play_Trigger",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Switch",
+  "name":"O_Play_Trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Menu/Buttons.yy",
+    "name":"Trigger",
+    "path":"folders/Objects/Menu/Trigger.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,14 +25,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"visibleView","filters":[],"listItems":[],"multiselect":false,"name":"visibleView","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Fullscreen",
-    "path":"sprites/S_Fullscreen/S_Fullscreen.yy",
+    "name":"S_Checkpoint",
+    "path":"sprites/S_Checkpoint/S_Checkpoint.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

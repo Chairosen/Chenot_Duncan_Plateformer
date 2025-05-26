@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_Settings_Button",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Quit_Trigger",
+  "eventList":[],
   "managed":true,
-  "name":"O_Settings_Button",
+  "name":"O_Quit_Trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Menu/Buttons.yy",
+    "name":"Trigger",
+    "path":"folders/Objects/Menu/Trigger.yy",
   },
   "parentObjectId":{
-    "name":"O_Button",
-    "path":"objects/O_Button/O_Button.yy",
+    "name":"O_Play_Trigger",
+    "path":"objects/O_Play_Trigger/O_Play_Trigger.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Settings_Button",
-    "path":"sprites/S_Settings_Button/S_Settings_Button.yy",
+    "name":"S_Checkpoint",
+    "path":"sprites/S_Checkpoint/S_Checkpoint.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

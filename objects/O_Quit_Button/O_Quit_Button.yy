@@ -8,8 +8,8 @@
   "name":"O_Quit_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Menu/Buttons.yy",
   },
   "parentObjectId":{
     "name":"O_Button",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Ground",
-    "path":"sprites/S_Ground/S_Ground.yy",
+    "name":"S_Quit_Button",
+    "path":"sprites/S_Quit_Button/S_Quit_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

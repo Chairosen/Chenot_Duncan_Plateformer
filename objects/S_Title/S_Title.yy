@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Settings_Button",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"S_Title",
+  "eventList":[],
   "managed":true,
-  "name":"O_Settings_Button",
+  "name":"S_Title",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Menu/Buttons.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":{
-    "name":"O_Button",
-    "path":"objects/O_Button/O_Button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Settings_Button",
-    "path":"sprites/S_Settings_Button/S_Settings_Button.yy",
+    "name":"S_Tiltle",
+    "path":"sprites/S_Tiltle/S_Tiltle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
