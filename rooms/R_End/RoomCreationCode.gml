@@ -1,0 +1,1 @@
+room_set_persistent(R_Niveau,false);

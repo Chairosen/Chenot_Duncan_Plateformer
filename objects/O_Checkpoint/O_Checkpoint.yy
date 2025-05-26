@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Checkpoint",
-    "path":"sprites/S_Checkpoint/S_Checkpoint.yy",
+    "name":"S_Checkpoint_Off",
+    "path":"sprites/S_Checkpoint_Off/S_Checkpoint_Off.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
