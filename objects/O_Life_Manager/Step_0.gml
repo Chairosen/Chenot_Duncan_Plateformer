@@ -1,7 +1,8 @@
 //Definition of the cases when the player respawn
 if (playerHP <= 0)
 {
-	Sc_Respawn();
+	O_Player.x = playerStartX;
+	O_Player.y = playerStartY;
 	playerHP = 5;
 }
 if (O_Player.x <0 || O_Player.x > room_width)
