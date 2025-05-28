@@ -11,6 +11,12 @@ var qDown = keyboard_check(ord("Q"));
 var dDown = keyboard_check(ord("D"));
 var spacePressed = keyboard_check_pressed(vk_space);
 
+var upPressed = keyboard_check_pressed(vk_up);
+var downPressed = keyboard_check_pressed(vk_down);
+var rightPressed = keyboard_check_pressed(vk_right);
+var leftPressed = keyboard_check_pressed(vk_left);
+var rCtrlPressed = keyboard_check_pressed(vk_rcontrol);
+
 //stop movement
 if (!qDown)
 {
@@ -21,68 +27,110 @@ if (!qDown)
 	}
 }
 
-//if inside collision, extract
-if (inGround)
+if (!godmod)
 {
-	y -= 2;
-}
-if (inCeilling)
-{
-	y += 10;
-}
-if (inRight)
-{
-	x -= 6;
-}
-if (inLeft)
-{
-	x += 6;
-}
+	//if inside collision, extract
+	if (inGround)
+	{
+		y -= 2;
+	}
+	if (inCeilling)
+	{
+		y += 10;
+	}
+	if (inRight)
+	{
+		x -= 6;
+	}
+	if (inLeft)
+	{
+		x += 6;
+	}
 
-//on ground
-if (isGrounded)
-{
-	nuggetJumped = false
-	if (!spacePressed)
+	//on ground
+	if (isGrounded)
 	{
-		vspeed = 0;
-	}
-	else
-	{
-		if (!toCeilling)
+		nuggetJumped = false
+		if (!spacePressed)
 		{
-			vspeed = jumpForce;
+			vspeed = 0;
 		}
-	}
-}
-//in air
-else
-{
-	//If touch the ceilling in air, stop the jump
-	if (toCeilling)
-	{
-		vspeed = 0;
-	}
-	else
-	{
-		//nugget jump : double jump
-		if (spacePressed)
+		else
 		{
-			if (!nuggetJumped)
+			if (!toCeilling)
 			{
-				nuggetJumped = true;
-				instance_create_layer(x,y,"Player",O_PipiteDiChoucoula);
-				vspeed -= 10;
+				vspeed = jumpForce;
 			}
 		}
 	}
-	//back on ground
-	if (vspeed<gravityForce)
-	{
-		vspeed += 1;
-	}
+	//in air
 	else
 	{
-		vspeed = gravityForce
+		//If touch the ceilling in air, stop the jump
+		if (toCeilling)
+		{
+			vspeed = 0;
+		}
+		else
+		{
+			//nugget jump : double jump
+			if (spacePressed)
+			{
+				if (!nuggetJumped)
+				{
+					nuggetJumped = true;
+					instance_create_layer(x,y,"Player",O_PipiteDiChoucoula);
+					vspeed -= 10;
+				}
+			}
+		}
+		//back on ground
+		if (vspeed<gravityForce)
+		{
+			vspeed += 1;
+		}
+		else
+		{
+			vspeed = gravityForce
+		}
+	}
+	//godmod
+	if(upPressed){
+		alarm[1] = 30;
+		if(alarm[1] <= 30 && upPressed)
+		{
+			alarm[1] = 30;
+			if(alarm[1] <= 30 && downPressed)
+			{
+				alarm[1] = 30;
+				if(alarm[1] <= 30 && downPressed)
+				{
+					alarm[1] = 30;
+					if(alarm[1] <= 30 && leftPressed)
+					{
+						alarm[1] = 30;
+						if(alarm[1] <= 30 && rightPressed)
+						{
+							alarm[1] = 30;
+							if(alarm[1] <= 30 && leftPressed)
+							{
+								alarm[1] = 30;
+								if(alarm[1] <= 30 && rightPressed)
+								{
+									godmod = true;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+else 
+{
+	if(rCtrlPressed)
+	{
+		godmod = false
 	}
 }
