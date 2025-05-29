@@ -37,5 +37,5 @@
     "path":"sprites/S_Card_Reader/S_Card_Reader.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

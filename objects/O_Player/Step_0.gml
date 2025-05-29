@@ -133,4 +133,8 @@ else
 	{
 		godmod = false
 	}
+	if (spacePressed)
+	{
+		y -= 16;
+	}
 }
