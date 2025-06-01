@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"S_Title",
+  "%Name":"O_Title",
   "eventList":[],
   "managed":true,
-  "name":"S_Title",
+  "name":"O_Title",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
